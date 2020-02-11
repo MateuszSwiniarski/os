@@ -1,4 +1,4 @@
-package com.rodzyn.homeWork02;
+package com.rodzyn.homeWork02.service;
 
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.annotation.Profile;
@@ -15,10 +15,9 @@ public class ProductServicePro {
         this.productService = productService;
     }
 
-    double totalPrice = 0;
-
     @EventListener(ApplicationReadyEvent.class)
     public void getAllProduct(){
+        double totalPrice = 0;
         for(int i = 0; i < productService.getProductList().size(); i++){
             int price = productService.rand();
 

@@ -1,4 +1,4 @@
-package com.rodzyn.homeWork02;
+package com.rodzyn.homeWork02.model;
 
 public class Product {
 

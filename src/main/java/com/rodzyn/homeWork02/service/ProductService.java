@@ -1,8 +1,7 @@
-package com.rodzyn.homeWork02;
+package com.rodzyn.homeWork02.service;
 
+import com.rodzyn.homeWork02.model.Product;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.context.event.ApplicationReadyEvent;
-import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Service;
 
 
